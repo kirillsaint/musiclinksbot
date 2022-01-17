@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf')
 const rateLimit = require('telegraf-ratelimit')
-const axios = require('axios')
+
 const request = require('request-promise')
 
 const bot = new Telegraf(process.env.TOKEN)
